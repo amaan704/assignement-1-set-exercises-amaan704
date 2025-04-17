@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #445A6F;
+    color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: centre;
+        background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+}
+
+.wrapper {
+    display: flex;
+    div{
+        margin:20px;
+
+    }
+}
+#btn{
+    margin-top: 30px;
+    button{
+        background-color: blue;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+button:hover{
+    background-color: chartreuse;
+}
+}
